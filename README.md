@@ -1,6 +1,8 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
 
 # docker-hive
+Use host.docker.internal
+docker network create cloudera
 
 This is a docker container for Apache Hive 3.1.2. It is based on https://github.com/big-data-europe/docker-hadoop so check there for Hadoop configurations.
 This deploys Hive and starts a hiveserver2 on port 10000.

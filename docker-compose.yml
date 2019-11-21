@@ -11,6 +11,7 @@ services:
       - ./hadoop-hive.env
     ports:
       - "5070:50070"
+      - "8020:8020"
 
   datanode:
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.1.2-java8
@@ -22,6 +23,8 @@ services:
       SERVICE_PRECONDITION: "namenode:8020"
     ports:
       - "5075:50075"
+      - "9864:9864"
+      - "9866:9866"
 
   hive-server:
     image: bde2020/hive:2.3.2-postgresql-metastore
@@ -77,4 +80,9 @@ services:
       - "8282:8081"
     environment:
       - "SPARK_MASTER=spark://spark-master:7077"
-      - "constraint:node==spark-master"  
+      - "constraint:node==spark-master"
+
+networks:
+     default:
+            external:
+                  name: cloudera
