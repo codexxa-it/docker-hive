@@ -1,5 +1,11 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
 
+
+# oracle
+docker run -it --name oracle -p 1521:1521 store/oracle/database-enterprise:12.2.0.1
+.\sqlplus.exe version730/version730@127.0.0.1:1521/ORCLCDB.localdomain
+
+
 # docker-hive
 Use host.docker.internal
 docker network create cloudera
