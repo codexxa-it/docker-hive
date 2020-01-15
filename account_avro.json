@@ -1,0 +1,170 @@
+{
+	"type": "record",
+	"name": "account",
+	"fields": [
+		{
+			"name": "NODE_TYPE",
+			"type": "string"
+		},
+		{
+			"name": "ACCOUNT_ID",
+			"type": "int"
+		},
+		{
+			"name": "ACC_STRUCT_MODEL_ID",
+			"type": "int"
+		},
+		{
+			"name": "ACCRUING_ACCOUNT_EXPR_ID",
+			"type": "int"
+		},
+		{
+			"name": "BALANCING_CURR_EXPR_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_ACC_PLACEMENT_RULE_ID",
+			"type": "int"
+		},
+		{
+			"name": "CT_SELECTION_EXPR_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_CONTRACT_DCM_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_BOOK_KEEPING_RULE_ID",
+			"type": "int"
+		},
+		{
+			"name": "CURRENCY_DEF_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_FX_ACCOUNTING_RULE_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_ACCRUING_RULE_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_BUSINESS_DAY_CONVENTION_ID",
+			"type": "int"
+		},
+		{
+			"name": "CALENDAR_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_END_OF_MONTH_CONVENTION_ID",
+			"type": "int"
+		},
+		{
+			"name": "REF_BALANCING_RULE_ID",
+			"type": "int"
+		},
+		{
+			"name": "LAST_UPDATE",
+			"type": "string"
+		},
+		{
+			"name": "USER_UPDATE",
+			"type": "string"
+		},
+		{
+			"name": "VERSION_KEY",
+			"type": "int"
+		},
+		{
+			"name": "NAME",
+			"type": "string"
+		},
+		{
+			"name": "STRUCT_ID",
+			"type": "int"
+		},
+		{
+			"name": "PARENT_STRUCT_ID",
+			"type": "int"
+		},
+		{
+			"name": "DEPTH",
+			"type": "int"
+		},
+		{
+			"name": "MNEMONIC",
+			"type": "string"
+		},
+		{
+			"name": "FULL_MNEMONIC",
+			"type": "string"
+		},
+		{
+			"name": "BOOK_KEEPING_INTERVAL_COUNT",
+			"type": "int"
+		},
+		{
+			"name": "BOOK_KEEPING_INTERVAL_UNIT",
+			"type": "int"
+		},
+		{
+			"name": "BALANCE_ACCRUALS",
+			"type": "int"
+		},
+		{
+			"name": "BALANCE_CASHFLOWS",
+			"type": "int"
+		},
+		{
+			"name": "BALANCE_EQUITY",
+			"type": "int"
+		},
+		{
+			"name": "BALANCE_COLLATERALS",
+			"type": "int"
+		},
+		{
+			"name": "FDA_STRING_01",
+			"type": "string"
+		},
+		{
+			"name": "FDA_STRING_02",
+			"type": "string"
+		},
+		{
+			"name": "FDA_STRING_03",
+			"type": "string"
+		},
+		{
+			"name": "FDA_STRING_04",
+			"type": "string"
+		},
+		{
+			"name": "FDA_DOUBLE_01",
+			"type": "float"
+		},
+		{
+			"name": "FDA_DOUBLE_02",
+			"type": "float"
+		},
+		{
+			"name": "FDA_DOUBLE_03",
+			"type": "float"
+		},
+		{
+			"name": "FDA_DOUBLE_04",
+			"type": "float"
+		},
+		{
+			"name": "FDA_INTEGER_01",
+			"type": "int"
+		},
+		{
+			"name": "FDA_INTEGER_02",
+			"type": "int"
+		}
+	]
+}
