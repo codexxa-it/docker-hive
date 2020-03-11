@@ -3,6 +3,7 @@
 
 # oracle
 docker run -it --name oracle -p 1521:1521 store/oracle/database-enterprise:12.2.0.1
+.\sqlplus.exe sys/Oradoc_db1@127.0.0.1:1521/ORCLCDB.localdomain as sysadm
 .\sqlplus.exe version730/version730@127.0.0.1:1521/ORCLCDB.localdomain
 
 
@@ -66,6 +67,7 @@ Starting an Oracle Database Server instance
 Starting an Oracle database server instance is as simple as executing
 
 $ docker run -it --name oracle -p 1521:1521 store/oracle/database-enterprise:12.2.0.1
+./sqlplus sys/Oradoc_db1@127.0.0.1:1521/ORCLCDB.localdomain as sysdba
 
 where <Oracle-DB> is the name of the container and 12.2.0.1 is the Docker image tag.
 
